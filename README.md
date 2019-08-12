@@ -31,3 +31,13 @@ Your app should now be running on <http://localhost:3000>. The Express server sh
 ## Deployment (Heroku)
 
 To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+
+## NPM Packages
+1. React
+2. React-DOM
+3. React-Scripts
+4. Concurrently
+5. Express
+6. if-env
+7. nodemon
+
