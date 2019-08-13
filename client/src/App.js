@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import locations for Search & Saved
-import { Search, Saved } from "./pages"
+// import { Search, Saved } from "./pages"
 // import "./App.css";
 
 class App extends Component {
@@ -9,12 +9,12 @@ class App extends Component {
     return (
       // Utilize react-router
       <Router>
-
-        <Switch>
+        <h1>TEST  </h1>
+        {/* <Switch>
           <Route exact pather="/" component={Search} />
           <Route exact path="/Search" component={Search} />
           <Route exact path="/Saved" component={Saved} />
-        </Switch>
+        </Switch> */}
 
       </Router>
     );
