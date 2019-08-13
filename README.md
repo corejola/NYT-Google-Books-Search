@@ -34,10 +34,12 @@ To deploy, simply add and commit your changes, and push to Heroku. As is, the NP
 
 ## NPM Packages
 1. React
-2. React-DOM
+2. React-Dom
 3. React-Scripts
-4. Concurrently
-5. Express
-6. if-env
-7. nodemon
-
+4. React-Router-Dom
+5. Axios
+6. Concurrently
+7. Express
+8. if-env
+9. nodemon
+10. Mongooose
