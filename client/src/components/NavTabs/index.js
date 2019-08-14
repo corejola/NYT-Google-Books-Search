@@ -1,17 +1,17 @@
-import React from "./node_modules/react";
-import { Link } from "./node_modules/react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
 function NavTabs() {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/" className={window.location.pathname === "/Searc" ? "nav-link active" : "nav-link"}>
+        <h1>
           Google Book Search
-        </Link>
+        </h1>
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
+          to="/Search"
           className={window.location.pathname === "/Search" ? "nav-link active" : "nav-link"}
         >
           Search
@@ -19,7 +19,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/blog"
+          to="/Saved"
           className={window.location.pathname === "/Saved" ? "nav-link active" : "nav-link"}
         >
           Saved
